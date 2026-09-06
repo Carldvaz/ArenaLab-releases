@@ -4,7 +4,7 @@ note: Primera version publicada.
 note: Aprons del ring editables uno a uno, por su lado.
 note: El apron del Preload se puede dejar en blanco.
 note: Turnbuckles: el interruptor propio/vanilla ya no se pierde al redibujar.
-creadores: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.0.0/ArenaLab_creadores.exe  ce0dfe3886013745a454718d60202f0c117363cb4454f6421c69861546cd83ba
-publico: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.0.0/ArenaLab_publico.exe  8cf12dbea7401019b6213866b723013664218759eba551d737f8ed60a137968b
-gratis: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.0.0/ArenaLab_gratis.exe  6c2a8cd008d6c925fef75e8713647514ded2dfc70c59561d0f2d70dbc1207770
-signature: YgBVgP9OlniDve5hXS/gLmmPVKEavE6SBGeOKDMrLBYlD96rvxW8A3ThH2kh771sJ0Da1i+GvqsTuMUWrkYsqTI4XDp+oU8Att/3Us3kSD02+8hR3WmNqQ1u+IWE4rushxhSwsTAB86UMweKflVruZaqG+mcfBGYqEjj/fVduIuPAno5T6zfXQ6LkSVbmRBpPX30EyL1glspepaSpUKYq8jd90goXi/hmbxUNoJJ0CQh8jLIgYjWTqPb6BUqYh3AuqkAYcHHXveWvV1sbdrRHINeaLCG/5t4BZR4hiQ8N8AcCNc6gBrJzR7dck1rzvBtV2KCtp1g8cu6I4Ih9pXsLw==
+creators: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.0.0/ArenaLab_creators.exe  22ca8bac573dba2d41432b31ed169d4d2b779a23e3b48fdf1035771102452133
+public: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.0.0/ArenaLab_public.exe  1e10b04f6b48a5de31e13878b3e04893dbc3c903e261fb9df3dfb3de22f4401e
+free: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.0.0/ArenaLab_free.exe  64167352e28d4d952f93c91234247bb6b42e6e458da11e22377f8fe48fd902ec
+signature: NS3L10ily58PbyG+WunEljkjeDVVuYXqby6guid6JFXRIznWNS/cccy2j9pgRkOU0iCAMvKglXVQEmkeak61CmExwD/fF+e3wCGNMRuBRbwV5pDdA9YztlFu/tSAdfgvmuu1Vb+GIf/r0ac+an1wzrijl2+CSFaDOOySAyUzUeU+adIsC7WU2JyQxkzw1wZJIZhBJ+RfqRrwzR74GiHpTjucCP+eFrkm/hF0YZOvGNy9rjgPDZEUZqtEsCQL8H+uW+6/AIj/OUunEzw+ag5USAC3aePHKxynNVM8n6oHTtThccsT1JdkI98LqB9zc4koREpzOdq+qWQzvxr8/u5yNQ==

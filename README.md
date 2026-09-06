@@ -7,9 +7,9 @@ Aquí sólo viven los paquetes publicados y el archivo de versiones.
 
 | Versión | Para quién | Qué hace |
 |---|---|---|
-| `ArenaLab-gratis-*.zip` | cualquiera | Montar una arena: ArenaDef, Preload, Ring, IBL, PostProcess y sus piezas. |
-| `ArenaLab-publico-*.zip` | cualquiera | Lo anterior más ArenaData, MovieData y los ShowAssets. |
-| `ArenaLab-creadores-*.zip` | por invitación | Lo anterior más portear arenas de 2K25. Necesita una llave. |
+| `ArenaLab-free-*.zip` | cualquiera | Montar una arena: ArenaDef, Preload, Ring, IBL, PostProcess y sus piezas. |
+| `ArenaLab-public-*.zip` | cualquiera | Lo anterior más ArenaData, MovieData y los ShowAssets. |
+| `ArenaLab-creators-*.zip` | por invitación | Lo anterior más portear arenas de 2K25. Necesita una llave. |
 
 Los `.zip` traen la aplicación y `ffmpeg`: son los que hay que bajar para
 instalar. Los `.exe` sueltos de cada publicación son para el actualizador de
