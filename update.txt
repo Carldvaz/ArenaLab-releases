@@ -1,10 +1,12 @@
 ArenaLab update v1
-version: 1.1.1
+version: 1.1.2
 kind: hotfix
-note: Fonts: opening a .fntpck no longer redraws it with whatever typeface is selected. It kept the file's own letters only for logos; the text font was rebuilt with Bebas Neue, so opening and exporting without touching anything replaced your font. Open and export now returns the very same file, byte for byte.
-note: Fonts: the letter grid says whether the letters are the file's own or freshly drawn.
-note: Fonts: after exporting, the app warns if the font was saved outside your open folders, or if no text in the open project points at it -- the two reasons a custom font silently does nothing in game.
-creators: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.1/ArenaLab_creators.exe  91caecf9509116e6b9562d8f0239a0a4d9c552b9cf5d43fc968e6d0ef7f2407c
-public: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.1/ArenaLab_public.exe  c412253bf2a83f2d7784d87f26d1b734735e0bd233d94565c20896de4d396afa
-free: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.1/ArenaLab_free.exe  086fd340425223e6b52e367f384a4f3683aee3b0f0ba8fb6dd8248cf883530da
-signature: Rt2271q44xvnJhlMgQObThrVwvRADjfJYl0vlY4+fYT6X7kfYxEUipMkxX/dUKopN2xQteq9Hupab24Mt9+9Fa6WbCzElnHb/JGODRv9Q8R+LXxj+X9NJRYf8daOXkm5jUTqhpy2xTMLSlFonLtwHykPbSJ3ITFTy8l1YWG2U6y5C01fHul1jfwAtNQ5pOLwXJ7x8kgEynlVdDpuZChB2iZzua705E3GArAKjigsQ02juGCHKupG3ehhMwDMd/d9nFjDGexuHvIKvORiFTETThPRbN46WkN9nHlDFd4rtUbW9cYFYHQh7YVpQZQaKgsyMU/G4X8pH0NjUpwp26raOg==
+note: Fonts: reopening a .fntpck now remembers which typeface, size and effects it was made with, so touching any control redraws it with YOUR font instead of the default one. A .fntpck stores bitmaps and does not record this, so it is kept beside the app, keyed by the file's contents.
+note: Fonts: for a font made on another machine there is nothing to remember, so the app now asks before redrawing it instead of silently changing the typeface.
+note: Matchups: the preview now steps lines apart the way the game does. It used to floor the step at the letter height, so lines that pile on top of each other in game looked fine here.
+note: Matchups: the panel warns when the lines will overlap in game, and says what line spacing they need.
+note: Matchups: saving now says that the game reads the baked arena, not the file you just wrote -- installing it again is a separate step.
+creators: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.2/ArenaLab_creators.exe  0564ef393074f6dbaa47c2d475e4087c02f658ae064dc92b4cefdb90f78fa642
+public: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.2/ArenaLab_public.exe  1d73b62218b7aae8f02ef2e1696048987b8a38cde5236c1f28b7a972a9cc75d7
+free: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.2/ArenaLab_free.exe  6fec79197e41fe33902200431360c8bc507e851554f4e8ca83f6c399b2abff77
+signature: PgnOPxNUYEn6og+wvy6gQ2VI30vu2z0x2Q/Gv18Lzsw3Wtt3dtQQBdI7/6GMAYdXgTJ6IvLkG5vwgxHoro794K+Edo5HnOc8A+hcZa4Opj7Eclbldhm9pmrCdoPHpaZOs71Y91UELsx5IEH00rjhirRk8THB3NCGA9GnU9+6AqCP0XMaLlWijfEzDyklHDQkI+mwUxebvmdFJUvffJ9M9HEmgqhTSDs17hWa01eZS/JO5V9GKzV1eItc0Ic5OA8lXeEIZo77oDHTEKnKK1I0Abuj8wQoBhq2UkLy2JGZyy6kOE0v5gcziOrzdaVfhXF4yg0ET4yA0b+oU+H6d93+Ng==
