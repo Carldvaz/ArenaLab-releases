@@ -1,12 +1,9 @@
 ArenaLab update v1
-version: 1.1.2
+version: 1.1.3
 kind: hotfix
-note: Fonts: reopening a .fntpck now remembers which typeface, size and effects it was made with, so touching any control redraws it with YOUR font instead of the default one. A .fntpck stores bitmaps and does not record this, so it is kept beside the app, keyed by the file's contents.
-note: Fonts: for a font made on another machine there is nothing to remember, so the app now asks before redrawing it instead of silently changing the typeface.
-note: Matchups: the preview now steps lines apart the way the game does. It used to floor the step at the letter height, so lines that pile on top of each other in game looked fine here.
-note: Matchups: the panel warns when the lines will overlap in game, and says what line spacing they need.
-note: Matchups: saving now says that the game reads the baked arena, not the file you just wrote -- installing it again is a separate step.
-creators: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.2/ArenaLab_creators.exe  0564ef393074f6dbaa47c2d475e4087c02f658ae064dc92b4cefdb90f78fa642
-public: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.2/ArenaLab_public.exe  1d73b62218b7aae8f02ef2e1696048987b8a38cde5236c1f28b7a972a9cc75d7
-free: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.2/ArenaLab_free.exe  6fec79197e41fe33902200431360c8bc507e851554f4e8ca83f6c399b2abff77
-signature: PgnOPxNUYEn6og+wvy6gQ2VI30vu2z0x2Q/Gv18Lzsw3Wtt3dtQQBdI7/6GMAYdXgTJ6IvLkG5vwgxHoro794K+Edo5HnOc8A+hcZa4Opj7Eclbldhm9pmrCdoPHpaZOs71Y91UELsx5IEH00rjhirRk8THB3NCGA9GnU9+6AqCP0XMaLlWijfEzDyklHDQkI+mwUxebvmdFJUvffJ9M9HEmgqhTSDs17hWa01eZS/JO5V9GKzV1eItc0Ic5OA8lXeEIZo77oDHTEKnKK1I0Abuj8wQoBhq2UkLy2JGZyy6kOE0v5gcziOrzdaVfhXF4yg0ET4yA0b+oU+H6d93+Ng==
+note: Matchups: the wrestler renders that ship inside the app are now used whenever your own folder cannot be read -- a permission, a drive that is gone, an empty folder. Listing it was unguarded, so any of those broke the whole call and the app said "no renders folder", which looked like a setting you had not filled in.
+note: Matchups: the renders line now says which folder it is using, whether you picked it or it was found, and what went wrong when something did.
+creators: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.3/ArenaLab_creators.exe  66c7cf633a722e71cdf409592918ad12130eb32d910637ca9a8dc4f094a4265d
+public: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.3/ArenaLab_public.exe  7b85658ba263bed617eb22a93730b7b3b8fb3da085aef26895da612b159cba94
+free: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.3/ArenaLab_free.exe  491e1b6554b27a752465a324080d37b995312746a8f6d2ea66f94b9fd88cffbe
+signature: ORfj/FQ6zcwu3p3v09IRgJuqV+gjD1jVMrD3NkhhokXcidnKPHxGUUGk6OXhYCOcgc5u6bm5OxUvnDzqhvEgAxjwz+cYITb0gfk8pOl09q1sD9kCMStZgfy4SnbG6CA16SfSNGPidyhBHDAkLGTc+Xdyp8MmYD7CO4Bk6JzqfDg6V4Dfp0RZUPpPBlBdDG9VSVA4gSrKHYX946wxQZKJfRhyICrqsRDzlv8lFmpgtJkGGuweHt1xQgz/OFboVwy0p5csD39VWjXaJF22+Y2WxW+l/WLGy4jpstQfz+bcTDWAbG2gjhbubC9vYQR+da/p3D+oWVkXc/LsTx0a3ARWkQ==
