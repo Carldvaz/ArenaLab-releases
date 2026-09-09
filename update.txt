@@ -1,13 +1,10 @@
 ArenaLab update v1
-version: 1.1.0
-note: Automatic updates: the app now knows where to look for them.
-note: Ring aprons can be edited one by one, each on its own side.
-note: The Preload apron can be left blank.
-note: Turnbuckles: the own/vanilla switch is no longer lost on redraw.
-note: Matchups: with line breaking on, the frame on the canvas is the text box. Its sides are where the line breaks and they can be dragged; the corners still scale the letters. Box width and height can also be typed in.
-note: Matchups: the app now names the font a project asks for even when you do not have it extracted, and says the preview is a stand-in.
-note: The tool buttons no longer overlap each other.
-creators: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.0/ArenaLab_creators.exe  4236c0f92156f23c253b3a421b28375942e89f735597ec7634d0dc91ea861160
-public: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.0/ArenaLab_public.exe  59b991fb6fea630d7ded844160b283e95463980fa56d31ce8b090c52c8992c83
-free: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.0/ArenaLab_free.exe  a9c0722dfe63f200743337f80a8f620590049d3ad3f70436e67b1f7ead80c5e2
-signature: iBG86ZpuxKMShW4dVxIxjqK+shcc0kKrzWrCw21o1J6nelO1bk9bDdx7IFzLeZpJOgcOgEauFIc2LBkEM18qMMuPlLjK/VoQjn50aYRyR2zz8szvE7vBNSA+ljHKxnequVMr342lzjH8MM2lmpt6Wc1Nm4iijnxTm59ATc/OvAzkVgddKz79CLj8pTe8Cn4AWowHPf1mPufzjZxnyRySy4RL/E4+N0rxtdlvoSaoimcnYnj+o2G/iHQCgSYpMVdiv7prC+8RHB0a+laOwaYokZZwcDmcQ1mmnxai0pGnq0C9ty1IK/TqRZrhHNWgvuBY/Je9X5DJypkTNt0NsfQvuQ==
+version: 1.1.1
+kind: hotfix
+note: Fonts: opening a .fntpck no longer redraws it with whatever typeface is selected. It kept the file's own letters only for logos; the text font was rebuilt with Bebas Neue, so opening and exporting without touching anything replaced your font. Open and export now returns the very same file, byte for byte.
+note: Fonts: the letter grid says whether the letters are the file's own or freshly drawn.
+note: Fonts: after exporting, the app warns if the font was saved outside your open folders, or if no text in the open project points at it -- the two reasons a custom font silently does nothing in game.
+creators: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.1/ArenaLab_creators.exe  91caecf9509116e6b9562d8f0239a0a4d9c552b9cf5d43fc968e6d0ef7f2407c
+public: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.1/ArenaLab_public.exe  c412253bf2a83f2d7784d87f26d1b734735e0bd233d94565c20896de4d396afa
+free: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.1/ArenaLab_free.exe  086fd340425223e6b52e367f384a4f3683aee3b0f0ba8fb6dd8248cf883530da
+signature: Rt2271q44xvnJhlMgQObThrVwvRADjfJYl0vlY4+fYT6X7kfYxEUipMkxX/dUKopN2xQteq9Hupab24Mt9+9Fa6WbCzElnHb/JGODRv9Q8R+LXxj+X9NJRYf8daOXkm5jUTqhpy2xTMLSlFonLtwHykPbSJ3ITFTy8l1YWG2U6y5C01fHul1jfwAtNQ5pOLwXJ7x8kgEynlVdDpuZChB2iZzua705E3GArAKjigsQ02juGCHKupG3ehhMwDMd/d9nFjDGexuHvIKvORiFTETThPRbN46WkN9nHlDFd4rtUbW9cYFYHQh7YVpQZQaKgsyMU/G4X8pH0NjUpwp26raOg==
