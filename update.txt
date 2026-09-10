@@ -1,9 +1,10 @@
 ArenaLab update v1
-version: 1.1.3
-kind: hotfix
-note: Matchups: the wrestler renders that ship inside the app are now used whenever your own folder cannot be read -- a permission, a drive that is gone, an empty folder. Listing it was unguarded, so any of those broke the whole call and the app said "no renders folder", which looked like a setting you had not filled in.
-note: Matchups: the renders line now says which folder it is using, whether you picked it or it was found, and what went wrong when something did.
-creators: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.3/ArenaLab_creators.exe  66c7cf633a722e71cdf409592918ad12130eb32d910637ca9a8dc4f094a4265d
-public: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.3/ArenaLab_public.exe  7b85658ba263bed617eb22a93730b7b3b8fb3da085aef26895da612b159cba94
-free: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.1.3/ArenaLab_free.exe  491e1b6554b27a752465a324080d37b995312746a8f6d2ea66f94b9fd88cffbe
-signature: ORfj/FQ6zcwu3p3v09IRgJuqV+gjD1jVMrD3NkhhokXcidnKPHxGUUGk6OXhYCOcgc5u6bm5OxUvnDzqhvEgAxjwz+cYITb0gfk8pOl09q1sD9kCMStZgfy4SnbG6CA16SfSNGPidyhBHDAkLGTc+Xdyp8MmYD7CO4Bk6JzqfDg6V4Dfp0RZUPpPBlBdDG9VSVA4gSrKHYX946wxQZKJfRhyICrqsRDzlv8lFmpgtJkGGuweHt1xQgz/OFboVwy0p5csD39VWjXaJF22+Y2WxW+l/WLGy4jpstQfz+bcTDWAbG2gjhbubC9vYQR+da/p3D+oWVkXc/LsTx0a3ARWkQ==
+version: 1.2.0
+note: ShowAssets: dragging a text on the canvas now changes its font size and box instead of its zoom. It looks exactly the same while dragging, but the file is left the way the game builds text -- a text with its own zoom is something the game almost never does (1 in 1,864), and there the preview and the game can break lines differently.
+note: ShowAssets: what used to be Scale X / Scale Y is now called Zoom X / Zoom Y, and on a text it can only be changed from the panel.
+note: ShowAssets: a text that already carries its own zoom gets a warning, with a button to move it into font size and box -- for that text, or for every text in the project at once, in a single undo step. The letters and the box come out exactly the same.
+note: Updates: pressing Update now closes ArenaLab and opens a small window that downloads the new version with a progress bar, checks it against the signed manifest, installs it and opens it. If anything goes wrong it says so and offers to open the version you had -- you are never left without the app, and closing that window halfway through brings your old version back too.
+creators: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.2.0/ArenaLab_creators.exe  df79c6f48f4e37c54a66bfc1a1b11df7c4ffe9d48411dd0f3fb269380ce1315b
+public: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.2.0/ArenaLab_public.exe  e41b71c9737f904caa97cae90ea7a3035f0ded92f69563e3c212e2ddacf9834b
+free: https://github.com/Carldvaz/ArenaLab-releases/releases/download/v1.2.0/ArenaLab_free.exe  a67f6195bfc7831df7eeba30e5536062900eaa3151389f50f85ed5921f95157e
+signature: QMbs1JN9mVaL1pqAiAmj4XODYt9HPNUsmDVgZTCO4wSMDeLeBkrKOXQXTuUvVpEjN4BGD29A+9dpssP5x60YUPwLvlztWB9SLDWeG3LlW+KqT8e6vhLBKeUGJsmslAsA3dsG4EcLFj2D6CLMo8rri/vVW2W+wpC62s4AFBN9BRiez703OnqmRl8reucD596rXLPVU0RO2sHQMRORLd5wqDTKRoSdyq2fOmmclA81srJ0NgrTaKJHGdAD/qhgkiA/HNSKoV7Ue9BFJomv2f4ozwSOLSa/b4m2CH+5VahPsgBKSh0UNigJwfQKPzL16JnKZsFpjFr4KBvWiTJOojiIWQ==
